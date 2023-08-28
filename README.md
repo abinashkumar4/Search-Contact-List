@@ -1,6 +1,4 @@
-========================================================================
-    APPLICATION : Group9_SearchContactList Project Overview
-========================================================================
+
 
 Please find Group9_SeachContactList Folder
 
