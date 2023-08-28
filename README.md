@@ -1,38 +1,55 @@
-##Search-Contact-List
+# Speech-Based Contact Search List using Linear Predictive Coding and Hidden Markov Model
 
-Please find Group9_SeachContactList Folder
+The Speech-Based Contact Search List is an innovative application that enables users to search for contact details using voice commands. This project leverages the power of Linear Predictive Coding (LPC) and Hidden Markov Model (HMM) probabilistic models to facilitate accurate voice-based contact searches. The application is implemented in C++ and built using Microsoft Visual Studio 2015.
 
-This file contains a summary of what you will find in each of the files that
-make up your Group9_SearchContactList application.
+## Features
 
-Group9_SearchContactList.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard. 
-    It contains information about the version of Visual C++ that generated the file, and 
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+- **Voice-Based Contact Search:** Users can perform contact searches by speaking the name or other relevant information of the desired contact.
 
-Group9_SearchContactList.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+- **Dynamic Training:** The application is designed to dynamically train itself during runtime. This means that as new contacts are added or existing ones are updated, the underlying models can adapt and improve search accuracy.
 
-Group9_SearchContactList.cpp
-    This is the main application source file.
-    Contains the code to display the form.
+## Project Structure
 
-Form1.h
-    Contains the implementation of your form class and InitializeComponent() function.
+### Group9_SearchContactList.vcxproj
 
-AssemblyInfo.cpp
-    Contains custom attributes for modifying assembly metadata.
+This file serves as the main project file for the VC++ project generated using the Application Wizard. It contains information about the Visual C++ version used to generate the file, as well as details about the selected platforms, configurations, and project features.
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
+### Group9_SearchContactList.vcxproj.filters
 
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Group9_SearchContactList.pch and a precompiled types file named StdAfx.obj.
+This filters file corresponds to the project's file structure. It establishes associations between the files in the project and specific filters, facilitating organized grouping of files within the Visual Studio IDE.
 
+### Group9_SearchContactList.cpp
+
+This is the primary source file of the application. It contains the code responsible for displaying the application's user interface and handling its functionalities, including capturing voice input and triggering contact searches.
+
+### Form1.h
+
+This header file contains the implementation of the main form class and the `InitializeComponent()` function, which defines the visual layout and components of the application's user interface.
+
+### AssemblyInfo.cpp
+
+This file contains custom attributes that can modify assembly metadata, providing information about the application such as version details.
+
+### StdAfx.h, StdAfx.cpp
+
+These files are used for building a precompiled header (PCH) file named `Group9_SearchContactList.pch` and a precompiled types file named `StdAfx.obj`.
+
+## Usage
+
+1. Launch the application using Microsoft Visual Studio 2015.
+2. The application's main form will be displayed, allowing voice-based contact searches.
+3. Utter the name or relevant details of the contact you wish to find.
+4. The application will process your voice input using Linear Predictive Coding and Hidden Markov Model probabilistic models to search and display the contact details.
+
+## Contributing
+
+This project is intended for learning purposes and can be further enhanced with additional features, improvements, and bug fixes. Contributions are welcome; feel free to fork the repository and create pull requests.
+
+## License
+
+This project is under [XYZ License](LICENSE.txt).
+
+---
+
+Please note that the above information is based on the provided details. Make sure to customize and expand the content according to the actual implementation and requirements of your project.
 /////////////////////////////////////////////////////////////////////////////
