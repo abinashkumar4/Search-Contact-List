@@ -45,11 +45,5 @@ These files are used for building a precompiled header (PCH) file named `Group9_
 
 This project is intended for learning purposes and can be further enhanced with additional features, improvements, and bug fixes. Contributions are welcome; feel free to fork the repository and create pull requests.
 
-## License
 
-This project is under [XYZ License](LICENSE.txt).
-
----
-
-Please note that the above information is based on the provided details. Make sure to customize and expand the content according to the actual implementation and requirements of your project.
 /////////////////////////////////////////////////////////////////////////////
